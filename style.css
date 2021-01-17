@@ -1,0 +1,42 @@
+body {
+  font-family: "Dosis", sans-serif;
+  background: #efefef;
+}
+
+h1 {
+  color: black;
+  position: fixed;
+  margin-left: 250px;
+  transform: rotate(-90deg);
+  bottom: 20vh;
+}
+
+h1::first-line {
+  font-size: 120px;
+  font-weight: bold;
+}
+
+h1::first-letter {
+  color: dodgerblue;
+}
+
+::selection {
+  background: dodgerblue;
+}
+
+h1::before {
+  content: "";
+  display: inline;
+  margin-left: -250px;
+  background-color: black;
+  bottom: 35%;
+  position: absolute;
+  height: 5px;
+  width: 200px;
+}
+
+.under-construction {
+  position: fixed;
+  bottom: 75%;
+  right: 25%;
+}
