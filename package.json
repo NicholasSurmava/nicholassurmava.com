@@ -4,7 +4,8 @@
   "description": "main page:   nav     #about     #work     #contact     ext: resume     > blog",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel -p 8080 index.html"
+    "dev": "parcel -p 8080 index.html",
+    "deploy": " parcel build index.html && surge ./dist nicholassurmava.com"
   },
   "repository": {
     "type": "git",
