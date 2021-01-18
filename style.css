@@ -16,10 +16,6 @@ h1::first-line {
   font-weight: bold;
 }
 
-h1::first-letter {
-  color: dodgerblue;
-}
-
 ::selection {
   background: dodgerblue;
 }
@@ -39,4 +35,10 @@ h1::before {
   position: fixed;
   bottom: 75%;
   right: 25%;
+}
+
+@media (max-width: 375px) {
+  h1 {
+    margin-left: 25%;
+  }
 }
