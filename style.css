@@ -23,12 +23,12 @@ h1::first-line {
 h1::before {
   content: "";
   display: inline;
-  margin-left: -250px;
+  margin-left: -375px;
   background-color: black;
   bottom: 35%;
   position: absolute;
   height: 5px;
-  width: 200px;
+  width: 350px;
 }
 
 .under-construction {
