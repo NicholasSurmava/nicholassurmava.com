@@ -21,6 +21,7 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "surge": "^0.21.7"
   }
 }
